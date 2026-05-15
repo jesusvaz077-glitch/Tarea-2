@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int sueldo, descuento, sueldotot;
+    printf("Cuanto es tú sueldo?");
+    scanf("%d", &sueldo);
+    if (sueldo<1000) {
+        descuento= sueldo*0.15;
+        printf("el sueldo total es:%d\n",sueldotot=sueldo+descuento);
+    }
+    else {
+        descuento= sueldo*0.12;
+        printf("el sueldo total es:%d\n",sueldotot=sueldo+descuento);
+    }
+    return 0;
+}
