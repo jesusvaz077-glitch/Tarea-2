@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int par=0, sumatot=0, cont=10;
+    printf("Programa que calcula la suma de los numeros pares comprendidos entre el 10 y 50\n");
+    while(cont<=50){
+        if (cont % 2==0){
+            par=par+1;
+            sumatot = sumatot + cont;
+        }
+        else {
+        }
+        cont= cont+1;
+    }
+    printf("Los pares son: %d\n", par);
+    printf("La suma total de los pares es: %d\n", sumatot);
+    return 0;
+}
