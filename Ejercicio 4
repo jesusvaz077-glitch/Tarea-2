@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    float cantidad, tasa, interes, monto;
+    printf("Ingrese la cantidad de dinero invertida: ");
+    scanf("%f", &cantidad);
+    printf("Ingrese la tasa de interes mensual: ");
+    scanf("%f", &tasa);
+
+    interes = cantidad * tasa / 100;
+    monto = cantidad + interes;
+    printf("El interes obtenido en el mes es: %.2f\n", interes);
+    printf("El monto total al finalizar el mes es: %.2f\n", monto);
+    return 0;
+}
